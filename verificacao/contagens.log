@@ -1,0 +1,18 @@
+Classes: 8
+Cidade: 22 linhas, 2 atributos
+Cliente: 58 linhas, 6 atributos
+Endereco: 31 linhas, 3 atributos
+Estado: 22 linhas, 2 atributos
+Item: 40 linhas, 4 atributos
+Pedido: 79 linhas, 8 atributos
+PedidoService: 400 linhas, 6 atributos
+Produto: 58 linhas, 6 atributos
+Regra 01: 20
+Regra 02: 10
+Regra 03: 26
+Regra 04: 12
+Regra 05: 26
+Regra 06: 271
+Regra 07: 4
+Regra 08: 6
+Regra 09: 62

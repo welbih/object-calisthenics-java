@@ -1,0 +1,106 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< br.com.treino:object-calisthenics >------------------
+[INFO] Building object-calisthenics 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ object-calisthenics ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\validacao-branches-final\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ object-calisthenics ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug release 17] to target\classes
+[INFO] /C:/Users/sniper/Documents/Codex/2026-10-24/referenced-chatgpt-conversation-this-is-an/work/validacao-branches-final/src/main/java/br/com/treino/pedido/PedidoService.java: C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\validacao-branches-final\src\main\java\br\com\treino\pedido\PedidoService.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/sniper/Documents/Codex/2026-10-24/referenced-chatgpt-conversation-this-is-an/work/validacao-branches-final/src/main/java/br/com/treino/pedido/PedidoService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ object-calisthenics ---
+[INFO] skip non existing resourceDirectory C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\validacao-branches-final\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ object-calisthenics ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ object-calisthenics ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.com.treino.pedido.PedidoServiceTest
+[INFO] Running br.com.treino.pedido.PedidoServiceTest$Identificadores
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s -- in br.com.treino.pedido.PedidoServiceTest$Identificadores
+[INFO] Running br.com.treino.pedido.PedidoServiceTest$Ciclo
+[ERROR] Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.068 s <<< FAILURE! -- in br.com.treino.pedido.PedidoServiceTest$Ciclo
+[ERROR] br.com.treino.pedido.PedidoServiceTest$Ciclo.relatorioFiltraClienteEstadoEQuantidade -- Time elapsed: 0.011 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2:Livro:2;> but was: <>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at br.com.treino.pedido.PedidoServiceTest$Ciclo.relatorioFiltraClienteEstadoEQuantidade(PedidoServiceTest.java:260)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[ERROR] br.com.treino.pedido.PedidoServiceTest$Ciclo.finalizaECancelaUmaVez -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1:Livro:2;> but was: <>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at br.com.treino.pedido.PedidoServiceTest$Ciclo.finalizaECancelaUmaVez(PedidoServiceTest.java:189)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[INFO] Running br.com.treino.pedido.PedidoServiceTest$Calculo
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 s -- in br.com.treino.pedido.PedidoServiceTest$Calculo
+[INFO] Running br.com.treino.pedido.PedidoServiceTest$Itens
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in br.com.treino.pedido.PedidoServiceTest$Itens
+[INFO] Running br.com.treino.pedido.PedidoServiceTest$Catalogo
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in br.com.treino.pedido.PedidoServiceTest$Catalogo
+[INFO] Running br.com.treino.pedido.PedidoServiceTest$Cadastro
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 s -- in br.com.treino.pedido.PedidoServiceTest$Cadastro
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.329 s -- in br.com.treino.pedido.PedidoServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   PedidoServiceTest$Ciclo.finalizaECancelaUmaVez:189 expected: <1:Livro:2;> but was: <>
+[ERROR]   PedidoServiceTest$Ciclo.relatorioFiltraClienteEstadoEQuantidade:260 expected: <2:Livro:2;> but was: <>
+[INFO] 
+[ERROR] Tests run: 91, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.973 s
+[INFO] Finished at: 2026-10-24T17:36:34-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.2:test (default-test) on project object-calisthenics: There are test failures.
+[ERROR] 
+[ERROR] See C:\Users\sniper\Documents\Codex\2026-10-24\referenced-chatgpt-conversation-this-is-an\work\validacao-branches-final\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,33 @@
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ferramentas/verificar.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+[main (root-commit) a13e625] Base de treino Object Calisthenics
+ 17 files changed, 1511 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 API.md
+ create mode 100644 README.md
+ create mode 100644 ROTEIRO.md
+ create mode 100644 criar-branches.sh
+ create mode 100644 ferramentas/verificar.py
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/br/com/treino/cliente/Cidade.java
+ create mode 100644 src/main/java/br/com/treino/cliente/Cliente.java
+ create mode 100644 src/main/java/br/com/treino/cliente/Endereco.java
+ create mode 100644 src/main/java/br/com/treino/cliente/Estado.java
+ create mode 100644 src/main/java/br/com/treino/pedido/Item.java
+ create mode 100644 src/main/java/br/com/treino/pedido/Pedido.java
+ create mode 100644 src/main/java/br/com/treino/pedido/PedidoService.java
+ create mode 100644 src/main/java/br/com/treino/produto/Produto.java
+ create mode 100644 src/test/java/br/com/treino/pedido/PedidoServiceTest.java
+Criada: regra-01-um-nivel-indentacao
+Criada: regra-02-sem-else
+Criada: regra-03-encapsular-primitivos-strings
+Criada: regra-04-colecoes-primeira-classe
+Criada: regra-05-um-ponto-por-linha
+Criada: regra-06-sem-abreviacoes
+Criada: regra-07-entidades-pequenas
+Criada: regra-08-dois-atributos-por-classe
+Criada: regra-09-sem-getters-setters
+Criada: todas-as-regras

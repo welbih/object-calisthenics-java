@@ -1,0 +1,77 @@
+{
+  "sem_identidade": 128,
+  "branches": 11,
+  "main": "a13e6250a85f375e04b07bf4ef0e11405a5a0aea",
+  "refs_inalteradas": true,
+  "notas": 10,
+  "main_testes": {
+    "tests": 91,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "mutacoes": [
+    {
+      "nome": "frete-limiar",
+      "tests": 91,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "cupom-limiar",
+      "tests": 91,
+      "failures": 2,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "vip-percentual",
+      "tests": 91,
+      "failures": 3,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "estoque-baixa",
+      "tests": 91,
+      "failures": 3,
+      "errors": 1,
+      "skipped": 0
+    },
+    {
+      "nome": "arredondamento",
+      "tests": 91,
+      "failures": 3,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "cpf-verificador",
+      "tests": 91,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "nome": "limite-itens",
+      "tests": 91,
+      "failures": 0,
+      "errors": 2,
+      "skipped": 0
+    },
+    {
+      "nome": "relatorio-filtro",
+      "tests": 91,
+      "failures": 2,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "restaurado": {
+    "tests": 91,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}
